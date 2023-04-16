@@ -1,0 +1,12 @@
+[package]
+name = "factorygame"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.10.1"
+image = { version = "0.24.6", default-features = false, features = ["png"] }
+ndarray = "0.15.6"
+noise = "0.8.2"
